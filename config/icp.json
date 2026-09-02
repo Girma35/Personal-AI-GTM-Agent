@@ -1,0 +1,59 @@
+{
+  "service": {
+    "name": "AI Automation Service",
+    "description": "We help businesses automate repetitive tasks using AI workflows, custom agents, and intelligent integrations.",
+    "pricing_model": "Project-based + retainer"
+  },
+  "icp": {
+    "industries": [
+      "SaaS",
+      "E-commerce",
+      "Marketing Agencies",
+      "Professional Services",
+      "Healthcare Tech",
+      "FinTech"
+    ],
+    "company_size": {
+      "min_employees": 10,
+      "max_employees": 500
+    },
+    "location": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Europe"
+    ],
+    "tech_stack_signals": [
+      "uses Zapier",
+      "uses Make (Integromat)",
+      "has manual workflows",
+      "uses spreadsheets for tracking",
+      "no automation platform"
+    ],
+    "pain_points": [
+      "Spending too much time on manual data entry",
+      "Repetitive customer follow-ups",
+      "Disconnected tools and siloed data",
+      "Slow lead response times",
+      "Inconsistent outreach messaging",
+      "No automated reporting"
+    ],
+    "buying_signals": [
+      "Recently funded",
+      "Hiring operations/automation roles",
+      "Job posts mentioning 'automation'",
+      "Growing team (scaling pains)",
+      "Using multiple disconnected tools"
+    ]
+  },
+  "qualification": {
+    "min_score": 60,
+    "weights": {
+      "icp_fit": 0.30,
+      "pain_signal": 0.25,
+      "buying_potential": 0.25,
+      "confidence": 0.20
+    }
+  }
+}
